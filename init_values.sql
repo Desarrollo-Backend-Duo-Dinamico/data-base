@@ -1,0 +1,56 @@
+INSERT INTO category(category,status) VALUES('Abarrotes',1);
+INSERT INTO category(category,status) VALUES('Electronica',1);
+INSERT INTO category(category,status) VALUES('Salud y Belleza',1);
+INSERT INTO category(category,status) VALUES('Panaderia',1);
+INSERT INTO category(category,status) VALUES('Cocina',1);
+INSERT INTO category(category,status) VALUES('Papeleria',1);
+INSERT INTO category(category,status) VALUES('Salchichoneria',1);
+INSERT INTO category(category,status) VALUES('Bebidas',1);
+
+
+insert into product (gtin, product, description, price, stock, category_id , status) values ('504493220322917', 'Cheese - Ricotta', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 17.63, 11, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('392686673121075', 'Pastry - Butterscotch Baked', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 34.45, 83, 5, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('662843792307749', 'Shiro Miso', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 55.11, 76, 1, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('662195219216815', 'Mahi Mahi', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 15.72, 71, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('345532726106672', 'Pork - Ground', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 54.13, 42, 8, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('501885657668408', 'Ecolab - Orange Frc, Cleaner', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 91.55, 18, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('724901269243984', 'Liners - Banana, Paper', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 16.44, 68, 2, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('886052696065010', 'Wine - Casillero Deldiablo', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 51.12, 58, 3, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('834557003992354', 'Mushroom - King Eryingii', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 15.65, 6, 8, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('951079813529736', 'Sobe - Berry Energy', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 98.95, 84, 8, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('091192307866388', 'Longos - Cheese Tortellini', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 47.41, 17, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('925275636842011', 'Water, Tap', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 33.84, 11, 1, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('946521629062165', 'Lentils - Green Le Puy', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 6.76, 10, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('771764600745964', 'Rye Special Old', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 63.35, 76, 6, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('489618349613570', 'Canadian Emmenthal', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 13.61, 46, 2, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('899213311586651', 'Cheese - Ermite Bleu', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 60.77, 26, 8, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('094409136603701', 'Crab - Meat Combo', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 23.84, 3, 1, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('681403349860791', 'Flavouring - Rum', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 54.44, 95, 1, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('583992142880592', 'Green Tea Refresher', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 26.33, 25, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('777352165813838', 'Tofu - Soft', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 5.56, 58, 8, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('149558707825654', 'Curry Powder Madras', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 2.36, 55, 6, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('656607012374379', 'Broom - Angled', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 61.1, 41, 6, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('373969146477931', 'Versatainer Nc - 8288', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 23.72, 61, 4, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('717443777500236', 'Puree - Mocha', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 41.35, 58, 3, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('588809714971009', 'Coffee - Dark Roast', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 41.04, 40, 2, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('824883397583422', 'Spice - Onion Powder Granulated', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 72.95, 95, 1, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('266316960467976', 'Momiji Oroshi Chili Sauce', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 40.15, 98, 7, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('192564389247365', 'Cheese - Mozzarella, Buffalo', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 37.34, 93, 2, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('885892938012428', 'Ecolab Silver Fusion', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 88.11, 94, 5, 1);
+insert into product (gtin, product, description, price, stock, category_id , status) values ('102224711225955', 'The Pop Shoppe - Lime Rickey', 'Fusce consequat. Nulla nisl. Nunc nisl.', 13.31, 78, 4, 1);
+
+INSERT INTO region(region,status) VALUES('Sur',1);
+INSERT INTO region(region,status) VALUES('Norte',1);
+INSERT INTO region(region,status) VALUES('Este',1);
+INSERT INTO region(region,status) VALUES('Oeste',1);
+
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Margarette', 'Boddice', '2003-09-18', 'LAUN197919CPN', 'mboddice0@dailymotion.com', '7270 Talmadge Terrace', 3, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Rickie', 'Harriot', '2001-07-24', 'QICL594470DHG', 'rharriot1@dyndns.org', '6946 Longview Hill', 3, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Zonda', 'Trollope', '2001-07-24', 'YYHV836337OBE', 'ztrollope2@cnet.com', '00675 Gina Road', 1, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Dacy', 'Harrap', '2002-04-01', 'IPHA003648QFH', 'dharrap3@businessweek.com', '3348 Lyons Circle', 1, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Dot', 'Cholerton', '2004-05-02', 'KVJT205553AAE', 'dcholerton4@theatlantic.com', '85230 Sachtjen Place', 2, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Shoshanna', 'Rignold', '2003-03-20', 'PTTF674651BLN', 'srignold5@loc.gov', '86269 Nova Terrace', 3, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Kylie', 'Graver', '2005-01-12', 'YIRD773810NGA', 'kgraver6@huffingtonpost.com', '35 Hayes Parkway', 4, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Byrle', 'Telezhkin', '2003-01-30', 'VQQO800010QLK', 'btelezhkin7@amazon.com', '56892 American Circle', 3, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Field', 'Kembery', '2004-07-30', 'AQON186819NAE', 'fkembery8@networksolutions.com', '258 4th Alley', 1, 1);
+insert into customer (name, surname, date_birth, rfc, mail, address, region_id, status) values ('Karoline', 'Newbatt', '2003-09-09', 'DOZN908312RNA', 'knewbatt9@fda.gov', '9 Summer Ridge Pass', 3, 1);
